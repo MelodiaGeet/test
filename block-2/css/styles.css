@@ -1,0 +1,38 @@
+selector {
+	property: value;
+}
+body {
+	font-family: 'Tangerine', cursive;
+	padding: 120px 0;
+	color: #f41c60;
+	background-color: #fdd8c5;
+}
+ul {
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.main-block{
+	line-height: 1.5;
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 630px;
+	margin: 0 auto;
+	padding: 80px 75px;
+	text-align: center;
+	border-radius: 4px
+	background-color: #fff;
+}
+.avatar-image{
+	position: absolute;
+	top: -60px;
+	left: 40%;
+	width: 120px;
+	height: 120px;
+
+	border-radius: 50%;
+	background: url('../images/picture.jpg');
+	background-size: cover;
+}
